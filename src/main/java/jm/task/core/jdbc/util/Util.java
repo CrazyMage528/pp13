@@ -29,8 +29,6 @@ public class Util {
 
                 settings.put(Environment.SHOW_SQL, "true");
 
-                settings.put(Environment.HBM2DDL_AUTO, "update");
-
                 configuration.setProperties(settings);
 
                 configuration.addAnnotatedClass(User.class);
